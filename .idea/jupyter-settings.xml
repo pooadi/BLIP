@@ -7,6 +7,7 @@
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
+              <option name="port" value="8886" />
               <option name="sdkHomePath" value="E:\Programming_Languages\Anaconda_Python\python.exe" />
             </JupyterConnectionParameters>
           </value>

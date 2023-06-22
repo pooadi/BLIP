@@ -13,7 +13,7 @@ import torch
 from torchvision import transforms
 from torchvision.transforms.functional import InterpolationMode
 
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 
 
@@ -24,7 +24,7 @@ def load_demo_image(image_size, device):
     function to load a demo image
     """
     img_url = 'InputImages/demo.jpg'
-    #raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
+    # raw_image = Image.open(requests.get(img_url, stream=True).raw).convert('RGB')
     # img_url = '/content/drive/My Drive/My_Software_Projects/Input_Frames/time0_frame1.jpg'
     raw_image = Image.open(img_url).convert('RGB')
     transform = transforms.Compose([
@@ -40,7 +40,6 @@ def load_demo_image(image_size, device):
 ########################################################################################################################
 
 if __name__ == '__main__':
-
     image_size = 384
     print("Loading image....")
     image = load_demo_image(image_size=image_size, device=device)

@@ -2,3 +2,5 @@ PreTrained/*
 InputImages/*
 */_pycache_/*
 *.pyc
+annotation/*
+output/*

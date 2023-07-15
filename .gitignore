@@ -4,3 +4,5 @@ InputImages/*
 *.pyc
 annotation/*
 output/*
+*.iml
+*.xml

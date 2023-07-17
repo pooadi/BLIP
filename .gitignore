@@ -6,3 +6,4 @@ annotation/*
 output/*
 *.iml
 *.xml
+.idea/*
